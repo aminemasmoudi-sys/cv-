@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Informatique — Portfolio Amine Masmoudi</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <h1 class="site-title">Quiz</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+<section class="card">
+    <h2 class="colored-title">Quiz Informatique</h2>
+
+    <form id="quizForm">
+
+        
+        <div class="quiz-question card" >
+            <p>1. Que signifie HTML ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q1" value="a">  <span>HyperText Markup Language</span></label>
+                <label><input type="radio" name="q1" value="b"> <span>HighText Machine Language</span></label>
+                <label><input type="radio" name="q1" value="c"> <span>Hyperlink Markdown Logic</span></label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>2. Quel langage permet de styliser une page web ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q2" value="a"> C</label>
+                <label><input type="radio" name="q2" value="b"> JavaScript</label>
+                <label><input type="radio" name="q2" value="c"> CSS</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>3. Quel système d’exploitation est souvent utilisé pour le développement web et serveur ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q3" value="a"> Windows XP</label>
+                <label><input type="radio" name="q3" value="b"> Linux</label>
+                <label><input type="radio" name="q3" value="c"> DOS</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>4. Quelle commande permet de créer un répertoire sous Linux ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q4" value="a"> mkdir</label>
+                <label><input type="radio" name="q4" value="b"> mkfile</label>
+                <label><input type="radio" name="q4" value="c"> newdir</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>5. Quelle base de données est relationnelle ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q5" value="a"> MongoDB</label>
+                <label><input type="radio" name="q5" value="b"> Redis</label>
+                <label><input type="radio" name="q5" value="c"> MySQL</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>6. JavaScript est un langage :</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q6" value="a"> compilé</label>
+                <label><input type="radio" name="q6" value="b"> interprété</label>
+                <label><input type="radio" name="q6" value="c"> de balisage</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>7. Quelle balise HTML permet d’insérer un lien ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q7" value="a"> &lt;a&gt;</label>
+                <label><input type="radio" name="q7" value="b"> &lt;link&gt;</label>
+                <label><input type="radio" name="q7" value="c"> &lt;href&gt;</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>8. Quel langage est utilisé côté serveur web ?</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q8" value="a"> HTML</label>
+                <label><input type="radio" name="q8" value="b"> CSS</label>
+                <label><input type="radio" name="q8" value="c"> PHP</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>9. Python est :</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q9" value="a"> uniquement orienté web</label>
+                <label><input type="radio" name="q9" value="b"> un langage polyvalent</label>
+                <label><input type="radio" name="q9" value="c"> un système d’exploitation</label>
+            </div>
+        </div>
+
+        
+        <div class="quiz-question card">
+            <p>10. CSS signifie :</p>
+            <div class="quiz-options">
+                <label><input type="radio" name="q10" value="a"> Cascading Style Sheets</label>
+                <label><input type="radio" name="q10" value="b"> Creative Style Syntax</label>
+                <label><input type="radio" name="q10" value="c"> Computer Style Script</label>
+            </div>
+        </div>
+
+        <button type="submit" class="quiz-button">Valider le Quiz</button>
+    </form>
+
+    <p id="result"></p>
+    <ul id="correction"></ul>
+</section>
+</main>
+
+<footer class="footer">
+    <p>© 2026 — Portfolio Amine Masmoudi</p>
+</footer>
+
+</body>
+</html>
